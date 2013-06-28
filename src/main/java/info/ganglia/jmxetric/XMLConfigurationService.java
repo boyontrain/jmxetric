@@ -48,8 +48,8 @@ public class XMLConfigurationService {
             host = getTagValue( "host", args, null );
             port = getTagValue( "port", args, null );
             config = getTagValue( "config", args, DEFAULT_CONFIG );
-            mode = getTagValue( "mode", args, DEFAULT_MODE );
-            wireformat = getTagValue( "wireformat31x", args, "false");
+            mode = getTagValue( "mode", args, null );
+            wireformat = getTagValue( "wireformat31x", args, null);
             processName = getTagValue( "process", args, null );
             spoof = getTagValue( "spoof", args, null );
         }
